@@ -1,1 +1,0 @@
-import{a as t,o as a,v as l,y as n}from"./index-D640GkUC.js";const d={__name:"Badge",props:{bgClass:{type:String,default:"bg-green-100"},textClass:{type:String,default:"text-green-800"}},setup(e){return(s,r)=>(a(),t("span",{class:n(["text-sm font-semibold px-3 py-1 rounded-full shadow-sm",e.bgClass,e.textClass])},[l(s.$slots,"default")],2))}};export{d as _};
