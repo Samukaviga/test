@@ -1,0 +1,1 @@
+import{c as t,e as a,q as l,v as n}from"./index-BRypyyz2.js";const c={__name:"Badge",props:{bgClass:{type:String,default:"bg-green-100"},textClass:{type:String,default:"text-green-800"}},setup(e){return(s,r)=>(a(),t("span",{class:n(["text-sm font-semibold px-3 py-1 rounded-full shadow-sm",e.bgClass,e.textClass])},[l(s.$slots,"default")],2))}};export{c as _};
