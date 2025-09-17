@@ -1,0 +1,1 @@
+import{x as o}from"./index-Bsftrolv.js";const e=t=>o(`contact-${t}`,{state:()=>({contact:null}),persist:{enabled:!0,strategies:[{key:`contact_${t}`,storage:sessionStorage}]},actions:{setContact(c){this.contact?this.contact={...this.contact,...c}:this.contact=c},clearContact(){this.contact=null}}})();export{e as u};
